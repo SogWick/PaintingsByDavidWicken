@@ -6,9 +6,5 @@
 
 <p>My first paragraph.</p>
 
-<img src="./a.jpg">
-<img src="/a.jpg">
-<img src="a.jpg">
-
 </body>
 </html>
