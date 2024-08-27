@@ -33,3 +33,9 @@
   background-color: #ddd;
   color: black;
 }
+.footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
