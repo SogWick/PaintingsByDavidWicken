@@ -87,6 +87,50 @@ div.desc {
   clear: both;
 }
 
+*{
+box-sizing: border-box;
+}
+main{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: 0 4px;
+width: 100%;
+}
+
+
+.responsive{
+width: 25%;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 300px;
+border: 1px solid black;
+}
+
+.artivemade{
+width: 100%;
+height: 100%;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+}
+
+.artivemade > a{
+width: 100%;
+height: auto;
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.desc{
+flex: 0;
+width: 100%;
+height: 32px;
+}
+
 .footer {
   background-color: #777;
   padding: 10px;
