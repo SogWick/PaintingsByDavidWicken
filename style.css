@@ -58,7 +58,8 @@ div.desc {
 .responsive {
   padding: 0 6px;
   float: left;
-  width: 24.99999%;
+  width: 400px;
+  height: 600px;
 }
 
 @media only screen and (max-width: 700px) {
@@ -74,11 +75,18 @@ div.desc {
   }
 }
 
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .clearfix:after {
   content: "";
   display: table;
   clear: both;
 }
+
 .footer {
   background-color: #777;
   padding: 10px;
