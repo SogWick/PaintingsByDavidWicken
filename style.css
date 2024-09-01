@@ -46,6 +46,19 @@ div.artivemade img {
   height: auto;
 }
 
+div.artforsale {
+  border: 1px solid #ccc;
+}
+
+div.artforsale:hover {
+  border: 1px solid #777;
+}
+
+div.artforsale img {
+  width: 100%;
+  height: auto;
+}
+
 div.desc {
   padding: 15px;
   text-align: center;
@@ -110,6 +123,23 @@ flex-direction: column;
 }
 
 .artivemade > a{
+width: 100%;
+height: auto;
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.artforsale{
+width: 100%;
+height: 100%;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+}
+
+.artforsale > a{
 width: 100%;
 height: auto;
 flex: 1;
