@@ -271,6 +271,12 @@ captionText.innerHTML = img.alt;
 
 
 var modal = document.getElementById("myModal");
+modal.addEventListener("click", (e) => {
+console.log(e.target, e.currentTarget);
+if(e.target == e.currentTarget){
+modal.style.display = "none";
+}
+});
 var span = document.getElementsByClassName("close")[0];
 
 span.onclick = function() {
