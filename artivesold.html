@@ -21,10 +21,17 @@
 </div>	
 
 <main>
+
+<div id="myModal" class="modal">
+<span class="close">&times;</span>
+<img class="modal-content" id="painting1">
+<div id="caption"></div>
+</div>
+
 <div class="responsive">
   <div class="artivemade">
-    <a target="_blank" href="artivemade/painting1.jpg">
-      <img src="artivemade/painting1.jpg" alt="DOOM Pixel" width="600" height="400">
+    <a target="_blank" href="artivemade/painting1.png">
+      <img src="artivemade/painting1.png" alt="DOOM Pixel" width="600" height="400">
     </a>
     <div class="desc">Add a description of the image here</div>
   </div>
@@ -40,6 +47,36 @@
   <p>&copy; Copyright 2024, Paintings By David Wickén</p>
 </div>
 
+<script>
+let links = document.querySelectorAll("a");
+
+links.forEach((l) => {
+let img = l.querySelector("img");
+if(img != null){
+l.addEventListener("click", (e) => {
+e.preventDefault();
+console.log(img.src);
+let modal = document.getElementById("myModal");
+var modalImg = document.getElementById("painting1");
+var captionText = document.getElementById("caption");
+modal.style.display = "block";
+modalImg.src = img.src;
+captionText.innerHTML = img.alt;
+
+
+});
+
+}
+});
+
+
+var modal = document.getElementById("myModal");
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function() {
+modal.style.display = "none";
+}
+</script>
 
 </body>
 </html>
