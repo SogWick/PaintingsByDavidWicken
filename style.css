@@ -75,6 +75,7 @@ div.artivesold img {
 div.desc {
   padding: 15px;
   text-align: center;
+  color: white;
 }
 
 * {
@@ -134,7 +135,7 @@ height: 100%;
 display: flex;
 flex-wrap: wrap;
 flex-direction: column;
-background: #545859;
+background: #5B6870;
 }
 
 .artivemade > a{
