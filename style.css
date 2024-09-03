@@ -19,12 +19,12 @@
 }
 .topnav {
   overflow: hidden;
-  background-color: #78BE21;
+  background-color: #2D2926;
 }
 .topnav a {
   float: left;
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -115,11 +115,12 @@ flex-wrap: wrap;
 justify-content: center;
 padding: 0 4px;
 width: 100%;
+background: #5B6870;
 }
 
 
 .responsive{
-width: 20%;
+width: 21.5%;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -133,6 +134,7 @@ height: 100%;
 display: flex;
 flex-wrap: wrap;
 flex-direction: column;
+background: #545859;
 }
 
 .artivemade > a{
